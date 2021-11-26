@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+  <title>Netfix</title>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__container">
+      <div class="site-header__start">
+        <a href="#" class="logo">
+          <img src="./assets/images/netflix.svg" alt="netflix-logo">
+        </a>
+      </div>
+      <div class="site-header__end">
+        <div class="select-arrow">
+          <select class="btn-language">
+            <option value="english" data-google-lang="en" >English</option>
+            <option value="russian" data-google-lang="ru" selected>Русский</option>
+            <option value="ukraine" data-google-lang="uk" >Українськa</option>
+          </select>
+        </div>
+
+        <button class="links-btn" type="button" name="button">Войти</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- section1 -->
+    <section class="main__section1">
+      <div class="block-shadow"></div>
+      <div class="bg-img"></div>
+      <div class="main__section1-content">
+        <h1 class="main__text1">Фильмы, сериалы и многое другое без ограничений.</h1>
+        <h2 class="main__text2">Смотрите где угодно. Отменить подписку можно в любое<br> время.</h2>
+
+        <form class="email-form">
+          <h3 class="email-form__title">Готовы смотреть? Введите адрес электронной почты, чтобы оформить или возобновить<br> подписку.</h3>
+          <div class="email-form__lockup">
+            <label for="email" class="email__inp">
+              <input class="inpEM" id="email" type="text" name="email" autocomplete="off" required>
+              <span class="email__inp-placeholder">Адрес электронной почты</span>
+            </label>
+
+            <div class="email-btn">
+              <button type="button" name="button">
+                <span>Начать смотреть</span>
+                <span class="btn-arrow-right">
+                  <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg"><desc>chevron</desc><path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none" fill-rule="evenodd"></path></svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- section2 -->
+    <section class="main__section2">
+      <div class="container main__section2-content">
+        <div class="main__section2-content-block1">
+          <h1 class="section2-title">Смотреть на<br> телевизоре.</h1>
+          <h2 class="section2-subtitle">Смотрите на Smart TV, PlayStation, Xbox,<br> Chromecast, Apple TV, плеерах Blu-ray и<br> других устройствах.</h2>
+        </div>
+        <div class="main__section2-content-block2">
+          <img src="./assets/images/computer.png" alt="computer">
+          <div class="main__section2-content-block2-animate">
+            <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
+              <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section3 -->
+    <section class="main__section3">
+      <div class="container main__section3-content">
+        <div class="main__section3-content-block1">
+          <div class="main__section3-content-block1-animate-content">
+            <img src="./assets/images/girl.jpeg" alt="girl">
+            <div class="animate-content">
+              <div class="animate-content-pic">
+                <img src="./assets/images/pictr3.png" alt="pictr3">
+              </div>
+              <div class="animate-content-text">
+                <div class="text-bold">Очень странные<br> дела</div>
+                <div class="text-download">Идет загрузка...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__section3-content-block2">
+          <h1 class="section3-title">Загружайте сериалы<br> для просмотра<br> офлайн.</h1>
+          <h2 class="section3-subtitle">Сохраняйте видео в избранном, и у вас<br> всегда будет, что посмотреть.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- section4 -->
+    <section class="main__section4">
+      <div class="container main__section4-content">
+        <div class="main__section4-content-block1">
+          <h1 class="section4-title">Смотрите где угодно.</h1>
+          <h2 class="section4-subtitle">Смотрите фильмы и сериалы на<br> телефоне, планшете, ноутбуке и<br> телевизоре без ограничений и без дополнительной платы.</h2>
+        </div>
+        <div class="main__section4-content-block2">
+          <img src="./assets/images/computers.png" alt="computers">
+          <div class="main__section4-content-block2-animate">
+            <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
+              <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section5 -->
+    <section class="main__section5">
+      <div class="container main__section5-content">
+        <div class="main__section5-content-block1">
+          <img src="./assets/images/ralf.png" alt="ralf">
+        </div>
+        <div class="main__section5-content-block2">
+          <h1 class="section5-title">Создавайте профили<br> для детей.</h1>
+          <h2 class="section5-subtitle">Подарите детям мир приключений с их<br> любимыми героями. Он создан<br> специально для них и уже доступен с<br> вашей подпиской.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- section6 -->
+    <section class="main__section6">
+      <div class="main__section6-card">
+        <h1 class="main__section6-card-title">Распространенные вопросы</h1>
+        <ul class="main__section6-card-list">
+            <button class="faq-quastion">Что из себя представляет Netflix?</button>
+            <div class="faq-asking">
+              <br>
+              <p>Netflix — это стриминговый сервис, позволяющий смотреть разнообразные удостоенные наград фильмы, сериалы, аниме, документальные фильмы и многое другое на тысячах устройств с подключением к интернету.</p>
+              <br>
+              <p>Вы можете смотреть сколько угодно и когда угодно без рекламы по фиксированной низкой цене за месяц. Вы всегда сможете найти что-нибудь новое — мы добавляем сериалы и фильмы каждую неделю!</p>
+              <br>
+            </div>
+            <button class="faq-quastion">Сколько стоит Netflix?</button>
+            <div class="faq-asking">
+              <br>
+              <p>Смотрите Netflix на смартфоне, планшете, Smart TV, ноутбуке или телеприставке за единую фиксированную ежемесячную плату. Стоимость планов составляет от 7,99 € до 11,99 € в месяц. Никаких лишних расходов и обязательств.</p>
+              <br>
+            </div>
+            <button class="faq-quastion">Где смотреть?</button>
+            <div class="faq-asking">
+              <br>
+              <p>Смотрите где угодно, когда угодно. Войдите в свой аккаунт Netflix и смотрите через интернет на сайте netflix.com на персональном компьютере или любом устройстве с подключением к интернету и приложением Netflix, включая телевизоры Smart TV, смартфоны, планшеты, плееры для потокового видео и игровые консоли.</p>
+              <br>
+              <p>Также вы сможете загружать свои любимые сериалы через приложение для iOS, Android или Windows 10. Загружайте видео для просмотра в поездках без подключения к интернету. Возьмите с собой Netflix куда угодно.</p>
+              <br>
+            </div>
+            <button class="faq-quastion">Как отменить подписку?</button>
+            <div class="faq-asking">
+              <br>
+              <p>Netflix — гибкий сервис. Никаких запутанных контрактов и обязательств. Вы можете легко отменить подписку на сайте в два клика. Никакой платы за отмену не взимается, открыть или закрыть аккаунт можно когда угодно.</p>
+              <br>
+            </div>
+            <button class="faq-quastion">Что можно посмотреть на Netflix?</button>
+            <div class="faq-asking">
+              <br>
+              <p>Netflix предлагает огромную библиотеку полнометражных фильмов, документальных фильмов, сериалов, аниме, удостоенного наград оригинального контента Netflix и многое другое. Смотрите сколько угодно и когда угодно.</p>
+              <br>
+            </div>
+            <button class="faq-quastion">Подходит ли контент Netflix для детей?</button>
+            <div class="faq-asking">
+              <br>
+              <p>В подписку включен пакет Netflix Kids, который обеспечивает родителям необходимый контроль, а детям возможность получать удовольствие от просмотра фильмов и сериалов для всей семьи в своем собственном пространстве.</p>
+              <br>
+              <p>Для детских профилей используется родительский контроль с использованием PIN-кода, который позволяет указать рейтинг контента, который могут смотреть дети, и заблокировать определенные видео, которые вы не хотите, чтобы смотрели дети.</p>
+              <br>
+            </div>
+            <button class="faq-quastion">Почему текст отображается на этом языке?</button>
+            <div class="faq-asking">
+              <br>
+              <p>Этот язык выбран в настройках вашего браузера.</p>
+              <br>
+            </div>
+        </ul>
+
+
+        <form class="email-form">
+          <h3 class="email-form__title">Готовы смотреть? Введите адрес электронной почты, чтобы оформить или возобновить<br> подписку.</h3>
+          <div class="email-form__lockup">
+            <label for="email1" class="email__inp">
+              <input class="inpEM" id="email1" type="text" name="email" autocomplete="off" required>
+              <span class="email__inp-placeholder">Адрес электронной почты</span>
+            </label>
+
+            <div class="email-btn">
+              <button type="button" name="button">
+                <span>Начать смотреть</span>
+                <span class="btn-arrow-right">
+                  <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg"><desc>chevron</desc><path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none" fill-rule="evenodd"></path></svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+<!-- footer -->
+  <footer class="footer">
+    <div class="footer__content">
+      <p class="footer__content-phone">Есть вопросы? Звоните по номеру <a class="footer__top" href="tel:0800-509-417">0800-509-417</a> </p>
+
+      <ul class="footer__links-structur">
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Распространенные вопросы</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Центр поддержки</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Аккаунт</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Медиацентр</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Для инвесторов</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Вакансии</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Способы просмотра</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Правила использования</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Конфиденциальность</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Настройки файлов cookie</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Корпоративная информация</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Свяжитесь с нами</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Проверка скорости</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Юридические уведомления</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="#!">Только на Netflix</a>
+        </li>
+      </ul>
+
+        <p class="footer__country">Netflix Украина</p>
+      </div>
+  </footer>
+
+<!-- logIn -->
+  <div class="modal-window">
+
+    <div class="modal__toggle">
+      <span class="stick"></span>
+    </div>
+
+    <div class="login">
+      <h1 class="login__title">Войти</h1>
+      <!-- field -->
+      <div class="fields">
+        <input type="text" placeholder="Адрес электронной почты" required>
+      </div>
+
+      <!-- field -->
+      <div class="fields">
+        <input type="text" placeholder="Пароль" required>
+      </div>
+
+      <button class="login__btn" type="button" name="button">Войти</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
